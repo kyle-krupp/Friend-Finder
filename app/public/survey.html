@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>FriendFinder</title>
+
+	<!--jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    
+	<!-- Materialize Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ 	<!-- Compiled and minified CSS -->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+ 	<!-- Compiled and minified JavaScript -->
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+</head>
+
+<body>
+	<div id="blob" class="container">
+
+		<h2><strong>Survey Questions</strong></h2>
+
+		<div class = "card-panel red lighten-5">
+
+			<h5><strong>About you</strong></h5>
+
+			<div class="row">
+			    <form class="col s12">
+				    <div class="row">
+				        <div class="input-field col s6">
+					        <i class="material-icons prefix">account_circle</i>
+					        <input id="icon_prefix" type="text" class="validate">
+					        <label id= "name" class = "qform" for="icon_prefix">Name (Required)</label>
+				        </div>
+				    </div>
+			    </form>
+			</div>
+
+			<div class="row">
+			    <form class="col s12">
+				    <div class="row">
+				        <div class="input-field col s6">
+					        <i class="material-icons prefix">photo_camera</i>
+					        <input id="icon_prefix" type="text" class="validate">
+					        <label id = "photo" class = "qform" for="icon_prefix">Link to photo (Required)</label>
+				        </div>
+				    </div>
+			    </form>
+			</div>
+
+        </div>	
+        
+        <!-- semantic questionnaire-->
+
+		<div class="card-panel red lighten-5">
+
+			<h5>Question 1</h5>
+			<p><strong>I like long walks on the beach</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q1">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+                
+			<h5>Question 2</h5>
+			<p><strong>I like hiking</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q2">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+			<h5>Question 3</h5>
+			<p><strong>I love the New England Patriots</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q3">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 4</h5>
+			<p><strong>I love the Boston Red Sox</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q4">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 5</h5>
+			<p><strong>I like programming</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q5">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 6</h5>
+			<p><strong>Coffee is as essential to my well-being as water</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q6">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 7</h5>
+			<p><strong>I do not like dating apps</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q7">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 8</h5>
+			<p><strong>I like to winter ski/snowboard</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q8">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 9</h5>
+			<p><strong>I am a dog person</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q9">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+			<h5>Question 10</h5>
+			<p><strong>I love the city of Portsmouth</strong></p>
+
+			  <select data-placeholder="" class="qselect browser-default" id="q10">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <br />
+
+		</div>
+
+		<button id="submitButton" class="btn waves-effect waves-light red btn-large" type="submit" name="action">Submit
+  			  <i class="material-icons right">send</i>
+ 		</button>
+        
+	</div>
+
+
+<div id="resultsMatch" class = "container"> 
+
+	<div class="row">
+		<div class="col l6 offset-l3 center-align">
+			<h4>It's a match!</h4>
+		</div>
+	</div>		
+
+	<div class="row">
+		<div class="col l6 offset-l3">
+
+				<h4 id="matchName" class="center-align"></h4>
+				<img id="matchPhoto" src="" alt="Image Not Found" style="max-width: 450px;">
+		</div>
+	</div>		
+        
+</div>
+
+
+  
+<script type="text/javascript">
+   
+$(document).ready(function() {
+	$("#resultsMatch").hide();
+    // listener for submit button
+    $('#submitButton').on('click', function() {
+        // call back function for collecting user input
+          collectInputs();
+          });
+      function collectInputs(){
+        // new friend object
+        var newFriend = {
+          name: $('#name').val().trim(),
+          photo: $('#photo').val().trim(),
+          scores: []
+        };
+
+ var scoresArray = [];
+        $('.qselect').each(function(){
+          scoresArray.push( parseInt( $(this).val() ) );
+        })
+        .promise().done(function(){
+          newFriend.scores = scoresArray;
+          var currentURL = window.location.origin;
+          $.post(currentURL + "/api/friends", newFriend, function(data){
+          	$("#blob").hide();
+          	$("#resultsMatch").show();
+            $('#matchName').text(data.name);
+            $('#matchPhoto').attr('src', data.photo);
+          }); 
+        });
+      }
+});
+		
+	</script>
+
+</body>
