@@ -3,7 +3,7 @@ A site that utilizes a questionnaire to ‘match’ users to a new friend.
 
 This is a node application utilizing the NPM package “Express” for the server code - deployed to Heroku.
 
-Live app link: 
+Live app link: https://pure-brushlands-38128.herokuapp.com/
 
 ## Technologies Used
 - [ ] Node.js
